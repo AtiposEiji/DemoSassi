@@ -1,0 +1,82 @@
+/* RESPONSIVE DESIGN */
+
+
+@media only screen and (max-width: 1200px) {
+    /* REUSABLE */
+
+    .section-general {
+        padding: 50px 0;
+    }
+
+    .mb-medium {
+        margin-bottom: 70px;
+    }
+
+    .title-xl {
+        font-weight: 900;
+        font-size: 55px;
+        line-height: 95%;
+        /* or 190px */
+        text-align: center;
+    }
+
+    .title-md {
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .paragraph-md {
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 130%;
+        text-align: center;
+    }
+
+    /* SECTION PRODUCTIVTY */
+    .section-productivity .paragraph-md {
+        margin-bottom: 60px;
+    }
+
+    .section-productivity .title-md {
+        margin-bottom: 20px;
+    }
+
+    /* SECTION COUNT ON US */
+    .section-count-on-us .title-xl {
+        margin-bottom: 25px;
+    }
+
+    .section-count-on-us .wrap-title-text .title-xl {
+        margin-bottom: 0px;
+        font-size: 100px;
+    }
+
+    .section-count-on-us .responsive-mb-medium {
+        margin-bottom: 50px !important;
+    }
+
+    .wrap-subtitle {
+        max-width: 1120px;
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .section-count-on-us .mb-medium {
+        margin-bottom: 20px;
+    }
+
+    .section-count-on-us .mb-large {
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    
+    
+}
+
+
+

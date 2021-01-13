@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html
+body {
+    font-family: "TitlingGothicFB Comp", sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+/* REUSABLE */
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.mb-medium {
+    margin-bottom: 30px;
+}
+
+.mb-large {
+    margin-bottom: 90px;
+}
+
+.wrapper-general{
+    max-width: 1630px;
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.wrap-subtitle {
+    max-width: 1120px;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.wrap-title-text {
+    max-width: 480px;
+    min-height: 184px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.row-title {
+    margin: 0 auto;
+}
+
+.section-general {
+    padding: 155px 0;
+}
+
+.flex{
+    display:flex;
+}
+
+.flex-row-wrap {
+    flex-flow: row wrap;
+}
+
+.flex-space-between {
+    justify-content: space-between;
+}
+
+.flex-space-around {
+    justify-content: space-around;
+}
+
+.flex-space-evenly {
+    justify-content: space-evenly;
+}
+
+.flex-space-center {
+    justify-content: center;
+}
+
+.flex-item-center {
+    align-items: center;
+}
+
+.flex-list-none {
+    list-style: none;
+}
+
+.title-xl {
+    font-weight: 900;
+    font-size: 200px;
+    line-height: 95%;
+    /* or 190px */
+    text-align: center;
+}
+    
+.title-md {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.paragraph-s {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+    text-align: center;
+}
+
+.paragraph-md {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 130%;
+    /* identical to box height, or 34px */
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    border-radius: 5px;
+    padding: 10px 29px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 130%;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    border: 1px solid #1A468E;
+}
+
+.btn-secondary {
+    border: 1px solid #DCDCDC;
+}
+
+.btn-dark {
+    border: 1px solid #999999;
+}
+
+.btn-light {
+    border: 1px solid #FFFFFF;
+}
+
+.btn-accent {
+    border: 1px solid #3E7EE6;
+}
+
+/* COLOR PALETTE */
+.primary {
+    color: #1A468E;
+}
+
+.secondary {
+    color: #DCDCDC;
+}
+
+.dark {
+    color: #999999;
+}
+
+.light {
+    color: #FFFFFF;
+}
+
+.accent {
+    color: #3E7EE6;
+}
+
+/* SECTION PRODUCTIVITY */
+
+.section-productivity {
+    background-image: linear-gradient(rgba(26,70,142,0.7), rgba(26,70,142,0.7)), url("../img/Futura-4873.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.section-productivity .title-xl{
+    margin-bottom: 20px;
+}
+
+.section-productivity .paragraph-md {
+    margin-bottom: 121px;
+}
+
+.section-productivity .title-md {
+    margin-bottom: 18px;
+}
+
+
+/* SECTION COUNT ON US */
+
+.section-count-on-us {
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-count-on-us .title-xl{
+    margin-bottom: 35px;
+}
+
+.section-count-on-us .mb-prova{
+    margin-bottom: 30px;
+}
+
+.section-count-on-us .wrap-title-text .title-xl {
+    margin-bottom: 0px;
+}
