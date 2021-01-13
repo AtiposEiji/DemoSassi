@@ -1,17 +1,18 @@
 /* RESPONSIVE DESIGN */
 
-
-@media only screen and (max-width: 1200px) {
+/* LAPTOP */
+@media (max-width:1366px){
     /* REUSABLE */
-
     .section-general {
         padding: 50px 0;
     }
 
+    /* MARGIN BOTTOM  */
     .mb-medium {
         margin-bottom: 70px;
     }
 
+    /* TEXT */
     .title-xl {
         font-weight: 900;
         font-size: 55px;
@@ -34,27 +35,55 @@
         text-align: center;
     }
 
-    /* SECTION PRODUCTIVTY */
-    .section-productivity .paragraph-md {
+    /* SECTION PRODUCTIVTY */  
+    /* MARGIN BOTTOM */
+    .section-productivity 
+    .paragraph-md {
         margin-bottom: 60px;
     }
 
-    .section-productivity .title-md {
+    /* WRAPPER */
+    .section-productivity
+    .wrap-title-text {
+        max-width: 412px;
+        min-height: 184px;
+        width: 100%;
+    }
+
+    /* TEXT */
+    .section-productivity 
+    .title-md {
         margin-bottom: 20px;
     }
 
     /* SECTION COUNT ON US */
-    .section-count-on-us .title-xl {
+    /* MARGIN BUTTON */
+    .section-count-on-us
+    .responsive-mb-medium {
+        margin-bottom: 50px;
+    }
+
+    .section-count-on-us
+    .mb-medium {
+        margin-bottom: 20px;
+    }
+
+    .section-count-on-us
+    .mb-large {
+        margin-bottom: 40px;
+    }
+
+    /* TEXT */
+    .section-count-on-us 
+    .title-xl {
         margin-bottom: 25px;
     }
 
-    .section-count-on-us .wrap-title-text .title-xl {
+    .section-count-on-us 
+    .wrap-title-text 
+    .title-xl {
         margin-bottom: 0px;
         font-size: 100px;
-    }
-
-    .section-count-on-us .responsive-mb-medium {
-        margin-bottom: 50px !important;
     }
 
     .wrap-subtitle {
@@ -64,17 +93,45 @@
         margin-bottom: 60px;
     }
 
-    .section-count-on-us .mb-medium {
-        margin-bottom: 20px;
+}
+
+@media (max-width: 1024px) {
+    /* PRODUCTIVITY */
+    .section-productivity
+    .wrap-title-text {
+        max-width: 310px;
+        min-height: 122px;
+        width: 100%;
     }
 
-    .section-count-on-us .mb-large {
-        margin-bottom: 40px;
+    .section-productivity
+    .paragraph-sm {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+    }
+    
+    /* COUNT ON US */
+    .section-count-on-us
+    .wrap-title-text {
+        max-width: 195px;
+        min-height: 184px;
+        width: 100%;
     }
 }
 
-@media only screen and (max-width: 767px) {
-    
+@media (max-width: 768px) {
+    /* COUNT ON US */
+    .section-count-on-us
+    .wrap-title-text {
+        max-width: 350px;
+        min-height: 184px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
     
 }
 

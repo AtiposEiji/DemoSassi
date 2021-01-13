@@ -1,3 +1,4 @@
+/* GENERAL */
 *{
     padding: 0;
     margin: 0;
@@ -11,12 +12,20 @@ body {
 }
 
 /* REUSABLE */
+.row-title {
+    margin: 0 auto;
+}
+
+.section-general {
+    padding: 155px 0;
+}
 
 .logo{
     width: 50px;
     height: 50px;
 }
 
+/* MARGIN BUTTON */
 .mb-medium {
     margin-bottom: 30px;
 }
@@ -25,6 +34,7 @@ body {
     margin-bottom: 90px; 
 }
 
+/* WRAPPER */
 .wrapper-general{
     max-width: 1630px;
     padding: 0 15px; 
@@ -39,53 +49,39 @@ body {
     margin-bottom: 100px;
 }
 
-.wrap-title-text {
+.wrap-title-text{
     max-width: 480px;
     min-height: 184px;
-    margin: 0 auto;
     width: 100%;
 }
 
-.row-title {
-    margin: 0 auto;
-}
-
-.section-general {
-    padding: 155px 0;
-}
-
+/* FLEXBOX */
 .flex{
     display:flex;
 }
 
-.flex-row-wrap {
+.description-container {
     flex-flow: row wrap;
-}
-
-.flex-space-between {
     justify-content: space-between;
-}
-
-.flex-space-around {
-    justify-content: space-around;
-}
-
-.flex-space-evenly {
-    justify-content: space-evenly;
-}
-
-.flex-space-center {
-    justify-content: center;
-}
-
-.flex-item-center {
     align-items: center;
-}
-
-.flex-list-none {
     list-style: none;
 }
 
+.numbers-container {
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.btn-container {
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+/* TEXT */
 .title-xl {
     font-weight: 900;
     font-size: 200px;
@@ -101,7 +97,7 @@ body {
     text-align: center;
 }
 
-.paragraph-s {
+.paragraph-sm {
     font-weight: 500;
     font-size: 22px;
     line-height: 140%;
@@ -117,6 +113,7 @@ body {
     text-align: center;
 }
 
+/* BUTTON */
 .btn {
     display: block;
     border-radius: 5px;
@@ -172,40 +169,42 @@ body {
 }
 
 /* SECTION PRODUCTIVITY */
-
+/* GENERAL */
 .section-productivity {
     background-image: linear-gradient(rgba(26,70,142,0.7), rgba(26,70,142,0.7)), url("../img/Futura-4873.png");
     background-size: cover;
     background-position: center;
 }
 
+/* TEXT */
 .section-productivity .title-xl{
     margin-bottom: 20px;
-}
-
-.section-productivity .paragraph-md {
-    margin-bottom: 121px;
 }
 
 .section-productivity .title-md {
     margin-bottom: 18px;
 }
 
+.section-productivity .paragraph-md {
+    margin-bottom: 121px;
+}
 
 /* SECTION COUNT ON US */
-
+/* GENERAL */
 .section-count-on-us {
     background-color: #FFFFFF;
     background-size: cover;
     background-position: center;
 }
 
-.section-count-on-us .title-xl{
-    margin-bottom: 35px;
-}
-
+/* MARGIN BUTTON */
 .section-count-on-us .mb-prova{
     margin-bottom: 30px;
+}
+
+/* TEXT */
+.section-count-on-us .title-xl{
+    margin-bottom: 35px;
 }
 
 .section-count-on-us .wrap-title-text .title-xl {
