@@ -7,7 +7,7 @@
 html
 body {
     font-family: "TitlingGothicFB Comp", sans-serif;
-    text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility; 
 }
 
 /* REUSABLE */
