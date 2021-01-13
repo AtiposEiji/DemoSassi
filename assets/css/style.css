@@ -22,12 +22,12 @@ body {
 }
 
 .mb-large {
-    margin-bottom: 90px;
+    margin-bottom: 90px; 
 }
 
 .wrapper-general{
     max-width: 1630px;
-    padding: 0 15px;
+    padding: 0 15px; 
     margin: 0 auto;
     width: 100%;
 }
