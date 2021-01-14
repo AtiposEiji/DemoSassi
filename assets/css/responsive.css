@@ -142,16 +142,31 @@
 
 @media (max-width: 768px) {
     /* COUNT ON US */
+    /* WRAPPER */
     .section-count-on-us
     .wrap-title-text {
         max-width: 350px;
         min-height: 184px;
         width: 100%;
     }
+
+    /* FLEXBOX */
+    .section-productivity    
+    .description-container {
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
 }
 
 @media (max-width: 767px) {
-    
+    .section-count-on-us .numbers-container {
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
 }
 
 
