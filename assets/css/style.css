@@ -16,13 +16,6 @@ body {
     margin: 0 auto;
 }
 
-.menu {
-    position: absolute;
-    padding-top: 35px;
-    margin-bottom: 184px;
-    margin-left: 80px;
-}
-
 .logo {
     position: absolute;
     width: 121px;
@@ -180,6 +173,8 @@ body {
 }
 
 /* INTRO */
+/* MENU */
+
 /* GENERAL */
 .slider {
     display: flex;
