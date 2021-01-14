@@ -1,5 +1,5 @@
 /* GENERAL */
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -8,7 +8,7 @@
 html
 body {
     font-family: "TitlingGothicFB Comp", sans-serif;
-    text-rendering: optimizeLegibility; 
+    text-rendering: optimizeLegibility;
 }
 
 /* REUSABLE */
@@ -16,14 +16,16 @@ body {
     margin: 0 auto;
 }
 
-.section-general {
-    padding: 155px 0;
-}
-
-.logo{
+.logo {
     width: 50px;
     height: 50px;
 }
+
+.back-img-cc {
+    background-size: cover;
+    background-position: center;
+}
+
 
 /* MARGIN BUTTON */
 .mb-medium {
@@ -31,13 +33,13 @@ body {
 }
 
 .mb-large {
-    margin-bottom: 90px; 
+    margin-bottom: 90px;
 }
 
 /* WRAPPER */
-.wrapper-general{
+.wrapper-general {
     max-width: 1630px;
-    padding: 0 15px; 
+    padding: 0 15px;
     margin: 0 auto;
     width: 100%;
 }
@@ -49,15 +51,15 @@ body {
     margin-bottom: 100px;
 }
 
-.wrap-title-text{
+.wrap-title-text {
     max-width: 480px;
     min-height: 184px;
     width: 100%;
 }
 
 /* FLEXBOX */
-.flex{
-    display:flex;
+.flex {
+    display: flex;
 }
 
 .description-container {
@@ -89,7 +91,7 @@ body {
     /* or 190px */
     text-align: center;
 }
-    
+
 .title-md {
     font-weight: 900;
     font-size: 40px;
@@ -168,45 +170,79 @@ body {
     color: #3E7EE6;
 }
 
-/* SECTION PRODUCTIVITY */
+/* INTRO */
+/* GENERAL */
+.slider {
+    display: flex;
+}
+
+.slide-photo {
+    flex-shrink: 0;
+    height: 800px;
+}
+
+/* SLIDER */
+button.slick-prev.slick-arrow {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 1;
+}
+
+button.slick-next.slick-arrow {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+}
+
+/* MARGIN BUTTOM */
+.header-intro
+.title-xl {
+    margin-bottom: 10px;
+}
+
+.header-intro
+.paragraph-md {
+margin-bottom: 88px;
+}
+
+/* PRODUCTIVITY */
 /* GENERAL */
 .section-productivity {
-    background-image: linear-gradient(rgba(26,70,142,0.7), rgba(26,70,142,0.7)), url("../img/Futura-4873.png");
-    background-size: cover;
-    background-position: center;
+    padding: 155px 0;
 }
 
 /* TEXT */
-.section-productivity .title-xl{
-    margin-bottom: 20px;
+.section-productivity .title-xl {
+margin-bottom: 20px;
 }
 
 .section-productivity .title-md {
-    margin-bottom: 18px;
+margin-bottom: 18px;
 }
 
 .section-productivity .paragraph-md {
-    margin-bottom: 121px;
+margin-bottom: 121px;
 }
 
-/* SECTION COUNT ON US */
+/* COUNT ON US */
 /* GENERAL */
 .section-count-on-us {
-    background-color: #FFFFFF;
-    background-size: cover;
-    background-position: center;
+background-color: #FFFFFF;
+padding: 155px 0;
 }
 
 /* MARGIN BUTTON */
-.section-count-on-us .mb-prova{
-    margin-bottom: 30px;
+.section-count-on-us .mb-prova {
+margin-bottom: 30px;
 }
 
 /* TEXT */
-.section-count-on-us .title-xl{
-    margin-bottom: 35px;
+.section-count-on-us .title-xl {
+margin-bottom: 35px;
 }
 
 .section-count-on-us .wrap-title-text .title-xl {
-    margin-bottom: 0px;
+margin-bottom: 0px;
 }
