@@ -145,6 +145,15 @@
     .wrapper-menu-element{
         display: none;
     }
+
+    #hamburger-menu {
+        display: flex;
+        flex-direction: column;
+        width: 45px;
+        justify-content: space-around;
+        height: 45px;
+    }
+
     /* COUNT ON US */
     /* WRAPPER */
     .section-count-on-us

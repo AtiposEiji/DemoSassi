@@ -1,4 +1,5 @@
-$(document).ready(function () {
+document.addEventListener("DOMContentLoaded", function () {
+
     $('.slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -18,3 +19,14 @@ $(document).ready(function () {
         
     });
 });
+
+
+
+function hamburgerToggleInit() {
+    const hamburger = document.getElementById("hamburger-menu");
+    hamburger.addEventListener("click", (event) => {
+        console.log(event);
+        console.log(this);
+        hamburger.classList.toggle("open");
+    });
+}
