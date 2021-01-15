@@ -141,6 +141,10 @@
 }
 
 @media (max-width: 768px) {
+    /* MENU */
+    .wrapper-menu-element{
+        display: none;
+    }
     /* COUNT ON US */
     /* WRAPPER */
     .section-count-on-us
